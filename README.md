@@ -4,7 +4,7 @@
 
 ## Introcution
 
-Faker是一个提供生成各种假数据的Python包.
+Faker是一个提供生成各种假数据的Python包
 
 ## Overview
 
@@ -53,7 +53,7 @@ fake.text()
 
 ## Localization
 
-Faker 能够生成不同语言的假数据.
+Faker 能够生成不同语言的假数据
 
 通过接受一个 `locale` 作为参数, `Faker()` 能够返回一个被本地化的生成器.如果没有
 指定 `locale` , `locale=DEFAULT_LOCALE=en_US`
