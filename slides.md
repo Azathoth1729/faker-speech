@@ -37,7 +37,15 @@ Faker is a Python package that generates fake data for you. Whether you need to 
 - 自定义 <!-- .element: class="fragment" data-fragment-index="3" -->
 
 Notes:
-Faker
+
+
+---
+
+- 测试 <!-- .element: class="fragment" data-fragment-index="1" -->
+- 机器学习 <!-- .element: class="fragment" data-fragment-index="2" -->
+- 匿名注册 <!-- .element: class="fragment" data-fragment-index="3" -->
+
+<!-- .slide: data-background="#81ceff" -->
 
 ---
 
@@ -87,6 +95,92 @@ fake.text()
 # Picture option probably increase check.
 # Likely smile him young. Bill such owner hear likely 
 # sell late.
+```
+
+<!-- .slide: data-background="#FFB080" -->
+
+------
+
+### 地址相关
+
+```python
+fake.address()            # 地址
+# '香港特别行政区大冶县上街钟街k座 664713'
+ 
+fake.building_number()    # 楼名    
+# 'v座'
+ 
+fake.city()               # 完整城市名
+# '长春县'
+ 
+fake.city_name()          # 城市名字(不带市县)
+# '梧州'
+ 
+fake.city_suffix()        # 城市后缀名
+# '市'
+ 
+fake.country()            # 国家名称
+# '厄立特里亚'
+ 
+fake.country_code(representation="alpha-2")
+# 'BZ'                    # 国家编号
+```
+
+<!-- .slide: data-background="#FFB080" -->
+
+------
+
+### 银行相关
+
+```python
+fake.bank_country()          # 银行所属国家
+# 'GB'
+ 
+fake.bban()                  # 基本银行账号
+# 'TPET9323218579379'          
+ 
+fake.iban()                  # 国际银行代码
+# 'GB82IRVM1531009974701'
+```
+
+<!-- .slide: data-background="#FFB080" -->
+
+------
+
+### 条形码相关
+
+```python
+fake.ean(length=13)    # EAN条形码
+# '5456457843465'
+ 
+fake.ean13()           # EAN13条形码
+# '2689789887590'
+ 
+fake.ean8()            # EAN8条形码
+# '52227936'
+```
+
+<!-- .slide: data-background="#FFB080" -->
+
+------
+
+### 货币相关
+
+```python
+fake.cryptocurrency()           # 加密货币代码+名称
+# ('TRX', 'TRON')
+ 
+fake.cryptocurrency_code()      # 加密货币代码
+# 'MZC'
+ 
+fake.cryptocurrency_name()      # 加密货币名称
+# 'Ripple'
+ 
+fake.currency()                 # 货币代码+名称
+# ('GNF', 'Guinean franc')
+ 
+fake.currency_code()            # 货币代码
+# 'SOS'
 ```
 
 <!-- .slide: data-background="#FFB080" -->
