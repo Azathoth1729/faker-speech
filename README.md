@@ -9,7 +9,7 @@ Here is [offical document](https://faker.readthedocs.io/en/master/)
 ### clone repo 
 
 ```shell
-git clone https://github.com/Azathoth1729/faker-speech
+git clone https://github.com/Azathoth1729/faker-speech.git
 ```
 
 ### reveal.js
